@@ -2315,36 +2315,36 @@ header .logo a {
 	max-width: 780px;
 }
 
-#subscribe #mc-form {
+#subscribe #mc-embedded-subscribe-form {
 	margin-top: 4.2rem;
 	margin-bottom: 0;
 	text-align: center;
 }
 
-#subscribe #mc-form input[type="email"] {
+#subscribe #mc-embedded-subscribe-form input[type="email"] {
 	width: 100%;
 	text-align: left;
 	color: rgba(255, 255, 255, 0.7);
 	background: rgba(0, 0, 0, 0.3);
 }
 
-#subscribe #mc-form input[type="email"]:focus {
+#subscribe #mc-embedded-subscribe-form input[type="email"]:focus {
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
 }
 
-#subscribe #mc-form .button {
+#subscribe #mc-embedded-subscribe-form .button {
 	margin: 0;
 	width: 100%;
 	background: #FFFFFF;
 }
 
-#subscribe #mc-form .button:hover,
-#subscribe #mc-form .button:focus {
+#subscribe #mc-embedded-subscribe-form .button:hover,
+#subscribe #mc-embedded-subscribe-form .button:focus {
 	background: #f9da4f;
 }
 
-#subscribe #mc-form label {
+#subscribe #mc-embedded-subscribe-form label {
 	color: #FFFFFF;
 }
 
@@ -2377,11 +2377,11 @@ header .logo a {
 		padding-left: 15px;
 	}
 
-	#subscribe #mc-form input[type="email"] {
+	#subscribe #mc-embedded-subscribe-form input[type="email"] {
 		text-align: center;
 	}
 
-	#subscribe #mc-form label {
+	#subscribe #mc-embedded-subscribe-form label {
 		margin-top: 3rem;
 	}
 
