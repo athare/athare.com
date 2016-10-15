@@ -420,3 +420,8 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+@media (min-width: 768px) {
+  .row ~ .row {
+    margin-top: 5rem;
+  }
+}

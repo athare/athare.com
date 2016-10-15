@@ -367,3 +367,10 @@ img::-moz-selection {
 body {
 	webkit-tap-highlight-color: @gray-darker;
 }
+
+// Add some space between rows on top of each other
+@media (min-width: 768px) {
+	.row ~ .row {
+		margin-top: 5rem;
+	}
+}
