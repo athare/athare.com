@@ -159,6 +159,11 @@ header {
   text-align: center;
   color: white;
 }
+@media (max-width: 768px) {
+  header {
+    color: #000;
+  }
+}
 header .header-content {
   position: relative;
   text-align: center;
